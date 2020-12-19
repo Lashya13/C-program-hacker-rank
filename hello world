@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+    printf("Hello, World!\n");
+    char string[100];
+    scanf("%[^\n]%*c",&string);
+    printf("%s",string);
+}
