@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+    
+    char a;
+    scanf("%c",&a);
+    printf("%c\n", a);
+    
+    char b[30];
+    scanf("%s",&b);
+    printf("%s",b);
+    
+    char string[100];
+    scanf("%[^/n]%*c",&string);
+    printf("%s",string);
+}
+
+
+
+#only integer need &
